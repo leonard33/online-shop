@@ -8,7 +8,9 @@ import "./Cart.css";
 const Cart = () => {
     const dispatch = useDispatch();
     const history = useNavigate();
+
     const cart = useSelector((state) => state.cart);
+    
     const backhandler = () => {
         history("/")
     }

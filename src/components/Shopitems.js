@@ -5,6 +5,9 @@ import { getshopdata } from '../features/shop/ShopSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import "./Itemcard.css"
 import { addtocart } from '../features/shop/CartSlice'
+import { Link } from 'react-router-dom'
+//import Itemdetails from './Itemdetails'
+//import Tilt from 'react-parallax-tilt';
 
 const Shopitems = () => {
 
@@ -32,7 +35,9 @@ const handlecart = (product) =>{
           image={product.image}
           price={product.price}
           rate={product.rating.rate}/>
+          <Link to={`Itemdetails/${product.id}`}>
             <button className='btn btn-outline-success btn-sm m-1'>View Item</button>
+            </Link>
             <button className='btn btn-outline-warning btn-sm m-1' onClick={() => handlecart(product)}>Add to Cart</button>
           </div>
          
