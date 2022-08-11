@@ -1,0 +1,151 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-image {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.items-titles {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    font-weight: 900;
+    font-size: 18px;
+    color: orange;
+}
+
+.item-title {
+  width: 50%;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.product {
+  width: 20%;
+}
+
+.imagetitle {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.remove-item {
+  color: rgb(167, 164, 164);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  color: red;
+  font-size: 14px;
+}
+
+.product-items {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-perotem {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.count {
+  outline: none;
+  border: none;
+}
+
+.item-quantity {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.cart-bottom {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.back-btn {
+  outline: none;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  color: green;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sub-total-checkout {
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-cart {
+  border: #ccc 1px solid;
+  height: 35px;
+  width: 130px;
+  background-color: #fff;
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sub-total {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  width: 235px;
+}
+
+.checkout-btn {
+  border: #ccc 1px solid;
+  height: 35px;
+  width: 235px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.subtotal-ammount {
+  font-size: 18px;
+  font-weight: 900;
+  color: orange;
+}
+
+.calc {
+  font-size: 10px;
+  margin-top: 5px;
+}
